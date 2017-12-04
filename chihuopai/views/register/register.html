@@ -1,0 +1,56 @@
+
+<div class="register">
+	<div class="register-header">
+		<img id="backhome" ng-click="goStateName('index')" src="./images/icons/login-arrow.png" alt="">
+		<span>注册</span>
+	</div>
+	<div class="register-main">
+		<div class="main-head">
+			<div class="userphoto">
+				<img src="" alt="">
+			</div>
+			<span class="postphoto">点击上存图像</span>
+		</div>
+		<div class="regform">
+			<form action="">
+				<div class="regname">
+					<span>昵称：</span>
+					<input type="text" placeholder="请输入4~10位字母数字和汉字">
+				</div>
+				<div class="regphone">
+					<span>手机号码：</span>
+					<input type="text" id="phone" ng-Keyup="phone()">
+				</div>
+				<div class="regidentify">
+					<span>验证码：</span>
+					<input type="text">
+					<span>获取验证码</span>
+				</div>
+				<div class="regdata">
+					<span>性别：</span>
+					<label for="">男<span id="selectman" class="select"><input type="checkbox" class="sex" ng-model="man" ng-click="selectman()"></span></label>
+					<label for="">女<span id="selectwomen" class="select"><input type="checkbox" class="sex" ng-model="women" ng-click="selectwomen()"></span></label>
+					<span>年龄：</span>
+					<input type="text">
+				</div>
+				<div class="regadd">
+					<span>所在城市：</span>
+					<div class="city">
+						<select name="" id="">							
+						</select>
+					</div>
+					<div class="area">
+						<select name="" id="">							
+						</select>
+					</div>				
+				</div>
+				<div class="declaration">
+					<span>交友宣言：</span>
+					<input type="text">
+				</div>
+				<span class="button">提交资料</span>
+			</form>
+		</div>
+
+	</div>
+</div>

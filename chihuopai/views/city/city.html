@@ -1,0 +1,52 @@
+
+<div class="city">
+	<div class="city-header">
+	    <span id="goindex" ng-click="goStateName('index')"><img src="./images/icons/login-arrow.png" alt=""></span>
+		<span>当前城市——<span id="address">广州</span></span>
+	</div>
+	<div class="city-main">
+		<div class="city-search">
+			<div><img src="./images/icons/index-search.png" alt=""></div>
+			<input type="text" placeholder="输入城市名或城市首字母索引" id="cityChoice">
+		</div>
+		<p><span>GPRS定位城市</span></p>
+		<h4>热门城市</h4>
+		<ul>
+			<li>北京</li>
+			<li>哈尔滨</li>
+			<li class="active">广州<span><img src="./images/icons/add.png" alt=""></span></li>
+			<li>长沙</li>
+			<li>佛山</li>
+			<li>昆明</li>
+			<li>上海</li>
+			<li>天津</li>
+			<li>深圳</li>
+			<li>清远</li>
+		</ul>
+	</div>
+
+	<script>
+		var cityPicker = new HzwCityPicker({
+	        data: data,
+	        target: 'cityChoice',
+	        valType: 'k-v',
+	        hideCityInput: {
+	            name: 'city',
+	            id: 'city'
+	        },
+	        hideProvinceInput: {
+	            name: 'province',
+	            id: 'province'
+	        },
+	        callback:function(){
+	            $('#address').text($('#cityChoice').val());
+	        }
+	    });
+
+	    cityPicker.init();
+
+	    $('#cityChoice').blur(function(){
+	        $('#address').text($('#cityChoice').val());
+	    });
+		</script>
+</div>

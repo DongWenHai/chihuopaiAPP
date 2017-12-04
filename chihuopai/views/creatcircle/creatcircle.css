@@ -1,0 +1,183 @@
+
+.creatcircle{
+	width:100%;
+	height:100%;
+}
+.creatcircle .creatcircle-header{
+	width:80%;
+	height:36px;
+	padding-left: 10%;
+	padding-right:10%;
+	background: #0aa770;
+}
+.creatcircle .creatcircle-header>span{
+	float:left;
+}
+.creatcircle .creatcircle-header>span:nth-child(2){
+	width:calc(100% - 35px);
+	text-align:center;
+	line-height: 36px;
+	padding-right:10px;
+	color:#f0f3f5;
+}
+.creatcircle .creatcircle-header>span:nth-child(1){
+	width:10px;
+}
+.creatcircle .creatcircle-header>span:nth-child(3){
+	width:15px;
+	height:24px;
+	margin-top:6px;
+	line-height:24px;
+	font-size:24px;
+	color:#fff;
+}
+.creatcircle .creatcircle-header>span>img{
+	width:8px;
+	height:auto;
+	margin-top:10px;
+}
+
+.creatcircle .creatcircle-main{
+	width:100%;
+	height:calc(100% - 96px);
+	background:#fff;
+	overflow-y: auto;
+}
+.creatcircle .circlephotos{
+	width: 100%;
+	height:100%;
+	background-image:url(../../images/creatcirclebg.png);
+	background-repeat: no-repeat;;
+	background-size:100% auto;
+	background-position:0 0;
+	overflow:auto;
+}
+
+.creatcircle .circlephotos>.circlediv{
+	width:150px;
+	height:150px;
+	border-radius:50%;
+	border:2px solid #58e0b0;
+	margin:calc(5% - 3px) auto;
+	position:relative;
+}
+.creatcircle .circlephotos>.circlediv>div{
+	width:30px;
+	height:30px;
+	border-radius:50%;
+	overflow:hidden;
+	position:absolute;
+}
+.creatcircle .circlephotos>.circlediv>div>img{
+	width:100%;
+	height:auto;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	margin:auto auto;
+}
+.creatcircle .circlephotos>.circlediv>div:nth-child(1){
+	width:50px;
+	height:50px;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	margin:auto auto;
+}
+.creatcircle .circlephotos>.circlediv>div:nth-child(2){
+	top:16px;
+	right:0px;
+}
+.creatcircle .circlephotos>.circlediv>div:nth-child(3){
+	top:100px;
+	right:-2px;
+}
+.creatcircle .circlephotos>.circlediv>div:nth-child(4){
+	top:135px;
+	right:60px;
+}
+.creatcircle .circlephotos>.circlediv>div:nth-child(5){
+	top:98px;
+	right:125px;
+}
+.creatcircle .circlephotos>.circlediv>div:nth-child(6){
+	top:10px;
+	right:118px;
+}
+
+.creatcircle .circle-form{
+	width:60%;
+	height:auto;
+	padding:18% 20% 25px;
+}
+.creatcircle .circle-form>div{
+	width:100%;
+	height:24px;
+	overflow:hidden;
+	margin:24px 0;
+}
+.creatcircle .circle-form>div>span{
+	width:60px;
+	height:24px;
+	line-height:24px;
+	float:left;
+	color:#3f4140;
+}
+.creatcircle .circle-form>div>input{
+	width:calc(100% - 62px);
+	height:23px;
+	border:none;
+	border-bottom:1px solid #3f4140;
+	float:left;
+}
+.creatcircle .circle-form>span{
+	width:70%;
+	height:36px;
+	border-radius:6px;
+	background:#0aa770;
+	color:#fff;
+	display:block;
+	margin:0 auto;
+	line-height:36px;
+	text-align:center;
+	letter-spacing: 2px;
+}
+
+
+
+.creatcircle .footer{
+	width:100%;
+	height:60px;
+	background:#f0f3f5;
+}
+.creatcircle .footer ul{
+	width:100%;
+	height:100%;
+}
+.creatcircle .footer ul li{
+	width:25%;
+	height:100%;
+	float:left;
+}
+.creatcircle .footer ul li>div{
+	width:100%;
+	height:28px;
+	padding-top: 8px;
+	position:relative;
+}
+.creatcircle .footer ul li img{
+	width:auto;
+	height:28px;
+	position:absolute;
+	left:0;
+	right:0;
+	bottom:0px;
+	margin:0 auto;
+}
+.creatcircle .footer ul li h6{
+	font-weight:100;
+	text-align:center;
+	padding-top:5px;
+}

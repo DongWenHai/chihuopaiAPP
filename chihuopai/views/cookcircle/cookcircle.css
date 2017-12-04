@@ -1,0 +1,287 @@
+.cookcircle{
+	width:100%;
+	height:100%;
+}
+.cookcircle .cookcircle-header{
+	width:80%;
+	height:36px;
+	padding-left: 10%;
+	padding-right:10%;
+	background: #0aa770;
+}
+.cookcircle .cookcircle-header>span{
+	float:left;
+}
+.cookcircle .cookcircle-header>span:nth-child(2){
+	width:calc(100% - 54px);
+	text-align:center;
+	line-height: 36px;
+	padding-right:10px;
+	color:#f0f3f5;
+}
+.cookcircle .cookcircle-header>span:nth-child(1){
+	width:10px;
+}
+.cookcircle .cookcircle-header>span:nth-child(3){
+	width:34px;
+	height:20px;
+	text-align: center;
+	line-height:20px;
+	border-radius: 4px;
+	background:#09be7b;
+	color:#f4fbf8;
+	font-size:12px;
+	margin-top:8px;
+}
+.cookcircle .cookcircle-header>span>img{
+	width:8px;
+	height:auto;
+	margin-top:10px;
+}
+
+.cookcircle .cookcircle-main{
+	width:100%;
+	height:calc(100% - 136px);
+	position:relative;
+}
+.cookcircle .nav{
+	width:100%;
+	height:30px;
+	margin-top:10px;
+	overflow:hidden;
+	box-sizing: border-box;
+	border-bottom: 1px solid #e0e1e2;
+}
+.cookcircle .nav>ul{
+	width:80%;
+	height:auto;
+	padding:3px 10%;
+	overflow:hidden;
+}
+.cookcircle .nav>ul>li{
+	width:33.333%;
+	height:auto;
+	float:left;
+	text-align:center;
+	box-sizing: border-box;
+}
+.cookcircle .nav>ul>li>span{
+	width:auto;
+	height:auto;
+	display:inline-block;
+}
+.cookcircle .nav>ul>li.active>span{
+	color:#0aa770;
+	border-bottom:2px solid #0aa770
+}
+.cookcircle .contentban{
+	width:300%;
+	height:100%;
+	position:absolute;
+	left:0;
+}
+.cookcircle .contentban>div{
+	width:33.3333%;
+	height:auto;
+	float:left;
+	overflow-y:auto;
+}
+
+.cookcircle .kitchen>ul{
+	width:100%;
+	height:auto;
+}
+.cookcircle .kitchen>ul>li{
+	width:100%;
+	height:120px;
+	border-bottom: 1px solid #e0e1e2;
+	padding:0 5%;
+	box-sizing:border-box;	
+}
+.cookcircle .kitchen>ul>li>span:nth-child(1){
+	width:100px;
+	height:100px;
+	border-radius: 4px;
+	overflow: hidden;
+	position:relative;
+	margin-top:10px;
+	float:left;
+}
+.cookcircle .kitchen>ul>li>span:nth-child(1)>img{
+	width:100%;
+	height:auto;
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	margin:auto auto;
+}
+.cookcircle .kitchen>ul>li>span:nth-child(2){
+	width:calc(100% - 100px);
+	height:100px;
+	margin-top:10px;
+	float:right;
+	padding:0 15px;
+	box-sizing: border-box;
+	position:relative;
+}
+.cookcircle .kitchen>ul>li>span:nth-child(2)>p:nth-child(1){
+	width:100%;
+	height:auto;
+	color:#4c4e4d;
+}
+.cookcircle .kitchen>ul>li>span:nth-child(2)>p:nth-child(2){
+	width:100%;
+	height:auto;
+	position:absolute;
+	bottom:0;
+	left:0;
+}
+.cookcircle .kitchen>ul>li>span:nth-child(2)>p:nth-child(2)>span{
+	font-size:12px;
+	color:#b2b4b3;
+	width:auto;
+}
+.cookcircle .kitchen>ul>li>span:nth-child(2)>p:nth-child(2)>span:nth-child(1){
+	padding-left:15px;
+	float:left;
+}
+.cookcircle .kitchen>ul>li>span:nth-child(2)>p:nth-child(2)>span:nth-child(2){
+	padding-right:15px;
+	float:right;
+}
+
+.cookcircle .baking .bakingban{
+	width:100%;
+	height:auto;
+}
+/*.cookcircle .bakingban>img{
+	width:100%;
+	height:auto;
+}*/
+.cookcircle .bakingban>video{
+	width:100%;
+	height:auto;
+}
+.cookcircle .bakingcontent{
+	width:80%;
+	padding:25px 10% 0;
+	height:auto;
+}
+.cookcircle .bakingcontent>h4{
+	font-weight:100;
+	color:#363533;
+}
+.cookcircle .bakingcontent>ol{
+	width:100%;
+	height:auto;
+}
+.cookcircle .bakingcontent>ol>li{
+	width:100%;
+	height:auto;
+	font-size:12px;
+	color:#363533;
+}
+.cookcircle .bakingcontent>p{
+	width:100%;
+	height:auto;
+	padding:20px 0;
+}
+.cookcircle .bakingcontent>p>span{
+	width:auto;
+	height:auto;
+	font-size:12px;
+	color:#363533;
+}
+.cookcircle .bakingcontent>p>span:nth-child(1){
+	float:left;
+}
+.cookcircle .bakingcontent>p>span:nth-child(2){
+	float:right;
+}
+.cookcircle .bakingcontent>ul{
+	width:100%;
+	height:auto;
+	overflow:hidden;
+	margin:10px 0;
+}
+.cookcircle .bakingcontent>ul>li{
+	width:20%;
+	height:32px;
+	float:left;
+	text-align:center;
+	line-height:32px;
+}
+.cookcircle .bakingcontent>ul>li>img{
+	width:60%;
+	max-width:48px;
+	height:auto;
+	margin:0 auto;
+}
+
+
+.cookcircle .realcook>div{
+	width:calc(100% - 30px);
+	height:auto;
+	margin:20px auto;
+	overflow:hidden;
+}
+.cookcircle .realcook>div>img{
+	width:100px;
+	height:auto;
+}
+.cookcircle .realcook>div>h4{
+	text-align:center;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space:nowrap;
+	font-weight:100;
+	color:#333231;
+}
+.cookcircle .realcook>div>p{
+	font-size:12px;
+	color:#333231;
+	line-height:24px;
+}
+.cookcircle .realcook>p{
+	font-size:12px;
+	color:#333231;
+	padding:5px 15px;
+}
+
+
+.cookcircle .footer{
+	width:100%;
+	height:60px;
+	background:#f0f3f5;
+}
+.cookcircle .footer ul{
+	width:100%;
+	height:100%;
+}
+.cookcircle .footer ul li{
+	width:25%;
+	height:100%;
+	float:left;
+}
+.cookcircle .footer ul li>div{
+	width:100%;
+	height:28px;
+	padding-top: 8px;
+	position:relative;
+}
+.cookcircle .footer ul li img{
+	width:auto;
+	height:28px;
+	position:absolute;
+	left:0;
+	right:0;
+	bottom:0px;
+	margin:0 auto;
+}
+.cookcircle .footer ul li h6{
+	font-weight:100;
+	text-align:center;
+	padding-top:5px;
+}

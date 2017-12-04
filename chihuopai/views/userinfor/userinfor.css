@@ -1,0 +1,133 @@
+
+.userinfor{
+	width:100%;
+	height:100%;
+}
+.userinfor .userinfor-header{
+	width:80%;
+	height:36px;
+	padding-left: 10%;
+	padding-right:10%;
+	background: #0aa770;
+}
+.userinfor .userinfor-header>span{
+	float:left;
+}
+.userinfor .userinfor-header>span:nth-child(2){
+	width:calc(100% - 35px);
+	text-align:center;
+	line-height: 36px;
+	padding-right:10px;
+	color:#f0f3f5;
+}
+.userinfor .userinfor-header>span:nth-child(1){
+	width:10px;
+}
+.userinfor .userinfor-header>span>img{
+	width:8px;
+	height:auto;
+	margin-top:10px;
+}
+
+.userinfor .userinfor-main{
+	width:100%;
+	height:calc(100% - 96px);
+	background:#f2f5f4;
+	overflow-y: auto;
+}
+.userinfor .userinfor-main>div{
+	width:90%;
+	height:50px;
+	border-radius:6px;
+	background:#fff;
+	margin:10px auto;
+}
+.userinfor .userinfor-main>div>span:nth-child(1){
+	color:#000;
+	line-height:50px;
+	padding-left:15px;
+	float:left;
+}
+.userinfor .userinfor-main>div>span:nth-child(2){
+	color:#797676;
+	padding-left:25px;
+	line-height:50px;
+}
+.userinfor .userinfor-main>div:nth-child(1)>span:nth-child(3){
+	width:50px;
+	height:50px;
+	padding:0;
+	border-radius:50%;
+	margin-right:15px;
+	float:right;
+	overflow: hidden;
+}
+.userinfor .userinfor-main>div:nth-child(1)>span:nth-child(3)>img{
+	width:100%;
+	height:auto;
+}
+.userinfor .userinfor-main>div>span:nth-child(3),
+.userinfor .userinfor-main>div:nth-child(1)>span:nth-child(2){
+	padding:0;
+	width:20px;
+	height:50px;
+	float:right;
+	position:relative;
+}
+.userinfor .userinfor-main>div>span:nth-child(3)>img,
+.userinfor .userinfor-main>div:nth-child(1)>span:nth-child(2)>img{
+	width:10px;
+	height:auto;
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	margin:auto auto;
+}
+.userinfor .userinfor-main>div:nth-child(3)>span:nth-child(3){
+	width:36px;
+	height:16px;
+	border-radius:4px;
+	background:#20ca8c;
+	color:#fff;
+	text-align:center;
+	line-height:16px;
+	margin-top:17px;
+	margin-right:20px;
+}
+
+.userinfor .footer{
+	width:100%;
+	height:60px;
+	background:#f0f3f5;
+}
+.userinfor .footer ul{
+	width:100%;
+	height:100%;
+}
+.userinfor .footer ul li{
+	width:25%;
+	height:100%;
+	float:left;
+}
+.userinfor .footer ul li>div{
+	width:100%;
+	height:28px;
+	padding-top: 8px;
+	position:relative;
+}
+.userinfor .footer ul li img{
+	width:auto;
+	height:28px;
+	position:absolute;
+	left:0;
+	right:0;
+	bottom:0px;
+	margin:0 auto;
+}
+.userinfor .footer ul li h6{
+	font-weight:100;
+	text-align:center;
+	padding-top:5px;
+}

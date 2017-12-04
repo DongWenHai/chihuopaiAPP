@@ -1,0 +1,156 @@
+
+.login{
+	width:100%;
+	height:100%;
+}
+.login .login-header{
+	width:100%;
+	height:36px;
+	background-color:#0aa770;
+}
+.login .login-header img{
+	float:left;
+	width:8px;
+	height:auto;
+	margin-top:10px;
+	padding-left:20px;
+}
+.login .login-header span{
+	float:right;
+	padding-right:20px;
+	line-height: 36px;
+	color:#fff;
+}
+
+
+.login .login-main{
+	width:100%;
+	height:calc(100% - 36px);
+	background-color:#f7f8f9;
+}
+.login .login-headph{
+	width:100%;
+}
+
+.login .login-headph img{
+	width:30%;
+	max-width:120px;
+	height:auto;
+	margin:0 auto;
+	padding-top: 30px;
+	margin-bottom: 10px;
+}
+
+.login .login-form{
+	width:70%;
+	padding-left:15%;
+	padding-right:15%;
+}
+.login .login-form p{
+	color:#252626;
+}
+.login .login-form p>span{
+	float:right;
+	font-size:12px;
+}
+.login .user,
+.login .psd{
+	height:25px;
+	margin:18px 0;
+	background-color:#fff;
+	border-radius:6px;
+}
+.login .user>span,
+.login .psd>span{
+	width:25px;
+	height:25px;
+	line-height: 25px;
+	float:left;
+	background-color:#fff;
+}
+.login .user>span img,
+.login .psd>span img{
+	width:20px;
+	height:auto;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin:auto auto;
+}
+.login .user>span img{
+	margin-top:3px;
+}
+.login .user>input,
+.login .psd>input{
+	display:inline-block;
+	border:none;
+	height:25px;
+	width:calc(100% - 25px);
+	line-height: 25px;
+	float:left;
+	background-color:#fff;
+}
+.login .login-form .btn{
+	width:80%;
+	height:40px;
+	background:#019a64;
+	border-radius:6px;
+	margin:20px auto;
+	text-align: center;
+	line-height:40px;
+	color:#fff;
+	letter-spacing: 2px;
+}
+.login .login-p{
+	overflow: hidden;
+}
+.login .login-p>span:nth-child(1){
+	float:left;
+	color:#252626;
+}
+.login .login-p>span:nth-child(2){
+	float:right;
+	color:#252626;
+}
+.login .login-link{
+	width:80%;
+	padding-left:10%;
+	padding-right:10%;
+}
+.login .link-line{
+	width:100%;
+	height:100%;
+	border-top:1px solid #aaa;
+	box-sizing:border-box;
+	position:relative;
+}
+.login .link-line span{
+	width:90px;
+	height:auto;
+	background:#f7f8f9;
+	text-align:center;
+	position:absolute;
+	top:-12px;
+	left:calc(50% - 45px);
+}
+.login .link-line ul{
+	width:60%;
+	height:auto;
+	margin:0 auto;
+	overflow: hidden;
+	margin-top:30px;
+	margin-bottom:20px;
+}
+.login .link-line ul li{
+	float:left;
+	width:33.3333%;
+}
+.login .link-line ul li img{
+	width:36px;
+	height:auto;
+	margin:0 auto;
+}
+.login .link-line h6{
+	font-weight:100;
+	text-align:center;
+	color:#444242;
+}

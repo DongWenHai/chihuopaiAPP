@@ -1,0 +1,78 @@
+
+<div class="user">
+	<div class="user-header">
+	    <span><img src="./images/icons/login-arrow.png" alt=""></span>
+		<span>个人中心</span>
+		<span>
+			<i></i>
+			<i></i>
+			<i></i>
+		</span>
+	</div>
+	
+	<div class="user-main">
+		<div class="userinfor">
+			<div class="infortop">
+				<span><img src="./images/userphoto.png" alt=""></span>
+				<span><p>Smlie 阳光小子<span>lv1</span></p><span>0/10</span></span>
+				<span id="touserinfor" ng-click="goStateName('userinfor')"><img src="./images/icons/arrowright.png" alt=""></span>
+			</div>
+			<div class="inforbottom">
+				<span><p>关注</p><p>1235</p></span>
+				<span></span>
+				<span><p>收藏</p><p>1226</p></span>
+			</div>
+		</div>
+		<div class="usermune">
+			<div class="cookmune">
+				<span><img src="./images/icons/cookmune.png" alt=""></span>
+				<span>发布菜谱</span>
+				<span id="gocookmune" ng-click="goStateName('cookmune')"><img src="./images/icons/userarrow.png" alt=""></span>
+			</div>
+			<div class="creatcircle">
+				<span><img src="./images/icons/creatcircle.png" alt=""></span>
+				<span>创建圈圈</span>
+				<span id="gocreatcircle" ng-click="goStateName('creatcircle')"><img src="./images/icons/userarrow.png" alt=""></span>
+			</div>
+			<div class="interest">
+				<span><img src="./images/icons/interest.png" alt=""></span>
+				<span>我感兴趣</span>
+				<span id="golovefoods" ng-click="goStateName('lovefoods')"><img src="./images/icons/userarrow.png" alt=""></span>
+			</div>
+			<div class="userinformation">
+				<span><img src="./images/icons/userinfor.png" alt=""></span>
+				<span>个人资料</span>
+				<span id="gouserinfor" ng-click="goStateName('userinfor')"><img src="./images/icons/userarrow.png" alt=""></span>
+			</div>
+		</div>
+	</div>
+
+	<div class="footer">
+		<ul>
+			<li id="home" ng-click="goStateName('index')">
+				<div>
+					<img src="./images/icons/home.png" alt="">
+				</div>
+				<h6>首页</h6>
+			</li>
+			<li id="eat" ng-click="goStateName('cookcircle')">
+				<div>
+					<img src="./images/icons/eat.png" alt="">
+				</div>
+				<h6>吃货圈</h6>
+			</li>
+			<li id="insvideo" ng-click="goStateName('interestvideo')">
+				<div>
+					<img src="./images/icons/video.png" alt="">
+				</div>
+				<h6>趣视频</h6>
+			</li>
+			<li id="user">
+				<div>
+					<img src="./images/icons/useractive.png" alt="">
+				</div>
+				<h6>我</h6>
+			</li>
+		</ul>
+	</div>
+</div>

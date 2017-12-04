@@ -1,0 +1,35 @@
+
+.start{
+	width:100%;
+	height:100%;
+	background:url(../../images/startbg.jpg);
+	position:relative;
+	overflow: hidden;
+}
+.start .ban{
+	position:absolute;
+	top:0;
+	left:0;
+	height:100%;
+}
+.start .ban li{
+	height:100%;
+	float:left;
+}
+.start .ban li img{
+	height:auto;
+}
+
+
+.start .swiper-pagination{
+	bottom:10%;
+}
+.start .swiper-pagination-bullet{
+	width:16px;
+	height:16px;
+	background-color:#fff;
+	opacity:1;
+}
+.start .swiper-pagination>.swiper-pagination-bullet-active{
+	background-color:#dfea97;
+}

@@ -1,0 +1,207 @@
+
+.register{
+	width:100%;
+	height:100%;
+	background:#f1f3f4;
+}
+.register .register-header{
+	width:100%;
+	height:36px;
+	background-color:#0aa770;
+}
+.register .register-header img{
+	float:left;
+	width:8px;
+	height:auto;
+	margin-top:10px;
+	padding-left:20px;
+}
+.register .register-header span{
+	float:right;
+	padding-right:20px;
+	line-height: 36px;
+	color:#fff;
+}
+
+.register .register-main{
+	width:80%;
+	padding:0 10%;
+	height:calc(100% - 36px);
+}
+.register .main-head{
+	width:100%;
+	height:auto;
+	padding-top:30px;
+}
+.register .userphoto{
+	width:100px;
+	height:100px;
+	border-radius: 50%;
+	background-color:#fff;
+	background-image:url("../../images/icons/userphoto.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size:60%;
+	overflow:hidden;
+	margin:0 auto;
+	position:relative;
+}
+.register .userphoto>img{
+	width:100%;
+	height:auto;
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	margin:auto auto;
+}
+.register .postphoto{
+	display:block;
+	width:84px;
+	height:auto;
+	margin:15px auto;
+	color:#94ab9a;
+}
+.register .regform{
+	width:100;
+	height:auto;
+	padding-top:20px;
+}
+.register .regform>form>div{
+	width:100%;
+	height:auto;
+	padding-top: 15px;
+	overflow:hidden;
+}
+.register .regform>form>div>span{
+	line-height: 24px;
+}
+.register .regform>form>div>input{
+	border:none;
+	height:24px;
+	line-height:24px;
+	padding-left: 5px;
+	background:#fff;
+	border-radius:6px;
+}
+.register .regname>span{
+	width:42px;
+	height:auto;
+	float:left;
+}
+.register .regname>input[type="text"]{
+	width:calc(100% - 49px);
+	float:left;
+}
+
+.register .regphone>span{
+	width:70px;
+	height:auto;
+	float:left;
+}
+.register .regphone>input[type="text"]{
+	width:calc(100% - 77px);
+	float:left;
+}
+
+.register .regidentify>span:nth-child(1){
+	width:56px;
+	height:auto;
+	float:left;
+}
+.register .regidentify>span:nth-child(3){
+	width:80px;
+	height:auto;
+	float:left;
+	text-align:center;
+	border-radius:6px;
+	background:#0aa770;
+	color:#f4faf7;
+	margin-left:5px;
+}
+.register .regidentify>input[type="text"]{
+	width:calc(100% - 146px);
+	float:left;
+}
+
+.register .regdata>span{
+	width:42px;
+	height:auto;
+	float:left;
+}
+.register .regdata>label{
+	width:35px;
+	height:24px;
+	line-height:24px;
+	display:block;
+	float:left;
+}
+.register .regdata>label>span{
+	width:13px;
+	height:13px;
+	display:block;
+	float:right;
+	margin:6px 2px 6px 2px;
+	border:1px solid #aaa;
+	border-radius:3px;
+	background-color:#fff;
+	position:relative;
+}
+.register .regdata>label>span>input{
+	margin:0;
+	border:none;
+	opacity: 0;
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	margin:auto auto;
+}
+.register .regdata>input[type="text"]{
+	width:calc(100% - 170px);
+	float:left;
+}
+
+.register .regadd>span{
+	width:70px;
+	float:left;
+}
+.register .regadd>div{
+	width:calc(50% - 43px);
+	height:auto;
+	float:left;
+	border-radius: 6px;
+	overflow:hidden;
+}
+.register .regadd>.city{
+	margin-right: 16px;
+}
+.register .regadd>div>select{
+	width:100%;
+	height:24px;
+	border:none;
+	background-color:#fff;
+}
+
+.register .declaration>span{
+	width:70px;
+	height:auto;
+	float:left;
+}
+.register .declaration>input[type="text"]{
+	width:calc(100% - 75px);
+	border:none;
+	float:left;
+}
+.register .button{
+	width:50%;
+	height:32px;
+	text-align:center;
+	line-height:32px;
+	border-radius:6px;
+	background:#08b37e;
+	display:block;
+	margin:28px auto 0;
+}

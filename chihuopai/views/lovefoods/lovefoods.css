@@ -1,0 +1,188 @@
+
+.lovefoods{
+	width:100%;
+	height:100%;
+}
+.lovefoods .lovefoods-header{
+	width:80%;
+	height:36px;
+	padding-left: 10%;
+	padding-right:10%;
+	background: #0aa770;
+}
+.lovefoods .lovefoods-header>span{
+	float:left;
+}
+.lovefoods .lovefoods-header>span:nth-child(2){
+	width:calc(100% - 74px);
+	text-align:center;
+	line-height: 36px;
+	color:#f0f3f5;
+}
+.lovefoods .lovefoods-header>span:nth-child(1){
+	width:10px;
+}
+.lovefoods .lovefoods-header>span:nth-child(3){
+	width:64px;
+	height:20px;
+	text-align: center;
+	line-height:20px;
+	color:#fff;
+	margin-top:8px;
+	float:right;
+}
+.lovefoods .lovefoods-header>span>img{
+	width:8px;
+	height:auto;
+	margin-top:10px;
+}
+.lovefoods .lovefoods-main{
+	width:100%;
+	height:calc(100% - 96px);
+	overflow-y: auto;
+}
+.lovefoods .lovefoods-search{
+	width:76%;
+	height:30px;
+	border-radius: 6px;
+	padding-left:12%;
+	padding-right:12%;
+	background:#c7efe1;
+	margin:15px auto;
+	box-sizing: border-box;
+}
+.lovefoods .lovefoods-search>div{
+	width:30px;
+	height:30px;
+	display:inline-block;
+	overflow: hidden;
+	position:relative;
+}
+.lovefoods .lovefoods-search>div>img{
+	height:16px;
+	width:auto;
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	margin:auto auto;
+}
+.lovefoods .lovefoods-search input::-webkit-input-placeholder{
+	color:#96999a;
+}
+.lovefoods .lovefoods-search>input{
+	width:calc(100% - 30px);
+	height:30px;
+	border:none;
+	float:right;
+	line-height: 30px;
+	background:transparent;
+}
+.lovefoods .lovefoodsban{
+	width:100%;
+	height:auto;
+	overflow:hidden;
+}
+.lovefoods .lovefoodsban>img{
+	width:100%;
+	height:auto;
+}
+.lovefoods .lovefoods-main>h4{
+	width:90%;
+	margin:0 auto;
+	color:#ba0416;
+	line-height:28px;
+	border-bottom:1px solid #ece8e8;
+}
+.lovefoods .lovefoods-main>ul{
+	width:90%;
+	height:auto;
+}
+.lovefoods .lovefoods-main>ul>li{
+	width:100%;
+	height:104px;
+	border-bottom:1px solid #ece8e8;
+	overflow:hidden;
+}
+.lovefoods .lovefoods-main>ul>li>span{
+	height:84px;
+	margin:10px 0;
+	float:left;
+}
+.lovefoods .lovefoods-main>ul>li>span:nth-child(1){
+	width:100px;
+	border-radius:4px;
+	overflow:hidden;
+	position:relative;
+}
+.lovefoods .lovefoods-main>ul>li>span:nth-child(1)>img{
+	width:100%;
+	height:auto;
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	margin:auto auto;
+}
+.lovefoods .lovefoods-main>ul>li>span:nth-child(2){
+	width:calc(100% - 150px);
+	padding-left:20px;
+}
+.lovefoods .lovefoods-main>ul>li>span:nth-child(2)>h4{
+	color:#ba0416;
+	padding-bottom:2px;
+}
+.lovefoods .lovefoods-main>ul>li>span:nth-child(2)>p{
+	font-size:12px;
+	color:#939a98;
+}
+.lovefoods .lovefoods-main>ul>li>span:nth-child(3){
+	width:30px;
+}
+.lovefoods .lovefoods-main>ul>li>span:nth-child(3)>img{
+	width:20px;
+	height:auto;
+	padding-top:60px;
+	padding-left:10px;
+}
+
+
+
+
+
+.lovefoods .footer{
+	width:100%;
+	height:60px;
+	background:#f0f3f5;
+}
+.lovefoods .footer ul{
+	width:100%;
+	height:100%;
+}
+.lovefoods .footer ul li{
+	width:25%;
+	height:100%;
+	float:left;
+}
+.lovefoods .footer ul li>div{
+	width:100%;
+	height:28px;
+	padding-top: 8px;
+	position:relative;
+}
+.lovefoods .footer ul li img{
+	width:auto;
+	height:28px;
+	position:absolute;
+	left:0;
+	right:0;
+	bottom:0px;
+	margin:0 auto;
+}
+.lovefoods .footer ul li h6{
+	font-weight:100;
+	text-align:center;
+	padding-top:5px;
+}
